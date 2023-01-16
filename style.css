@@ -1,0 +1,36 @@
+* {
+    text-align: right;
+}
+
+body {
+    background-color: antiquewhite;
+    background-size:cover;
+}
+
+
+h2, p {
+    color: #AA4139;
+    text-align: center;
+    border: 5px solid #FFB0AA;
+    cursor:pointer;
+}
+
+p {
+    line-height: 20px;
+    font-weight: bold;
+    font-size: 100%;
+    font-family: 'Comfortaa', cursive;
+}
+
+li {
+    list-style: none;
+    display:inline-block;
+}
+
+.webtext {
+    border: 5px green dashed;
+}
+
+#div1 {
+    background-color: goldenrod;
+}
