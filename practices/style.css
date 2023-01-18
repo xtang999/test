@@ -15,8 +15,18 @@ h2, p {
     cursor:pointer;
 }
 
+img {
+    float: left;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+}
+
+
 p {
-    line-height: 20px;
+    line-height: 50px;
     font-weight: bold;
     font-size: 100%;
     font-family: 'Comfortaa', cursive;
