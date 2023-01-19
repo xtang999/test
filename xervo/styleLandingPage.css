@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    background-color: white;
+    font-family: 'BIZ UDPGothic', sans-serif;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    min-height:100vh;
+
+}
+
+.landingDiv {
+    width: 75vw;
+    height: 75vh;
+    background-color: black;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+
+h1, a {
+    color:white;
+    text-decoration: none;
+    font-size: xx-large;
+}
+
+h1 a {
+    font-size: 200px;
+    line-height: 200px;
+}
+
+a:hover {
+    color: gold;
+  }
+
+a:active {
+    transform: translate(0, 2px);
+}
