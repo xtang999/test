@@ -2,13 +2,18 @@
     box-sizing: border-box;
   }
   
-  /* Style the body */
   body {
     font-family: Arial;
     margin: 0;
   }
+
+  h4.banner {
+    font-family: 'BIZ UDPGothic', sans-serif;
+    font-size:smaller;
+    line-height: 1.5em;
+    padding: 0;
+  }
   
-  /* Header/logo Title */
   .header {
     text-align: center;
     padding: 2px;
@@ -16,11 +21,23 @@
   }
 
   #headerText {
-    font-family: 'Oswald', sans-serif;
     color: #ffffff;
-    font-size: 50px;
+    font-size: 40px;
   }
 
+  .selectBW a{
+    color: #ffffff;
+    font-size: 80px;
+    text-decoration: none;
+  }
+
+  .selectBW a:hover {
+    transform: rotate(-10deg);
+  }
+
+  a.selectBW:active {
+    transform: rotate(-10deg) translate(0, 2px);
+  }
 
   .navbar {
     display: flex;
@@ -29,7 +46,6 @@
     text-align: center;
   }
   
-  /* Style the navigation bar links */
   .navbar a {
     color: white;
     padding: 14px 20px;
@@ -38,12 +54,11 @@
   }
   
   .navbar a:hover {
-    color: white;
     transform: rotate(10deg);
   }
 
   .navbar a:active {
-    color: gold;
+    /* color: gold; */
     transform: rotate(10deg) translate(0, 2px);
   }
   
@@ -85,6 +100,11 @@
 ::selection {
   background-color: transparent;
   color: gold;
+}
+
+a.activeTab {
+  color: gold;
+  transform: rotate(10deg);
 }
 
   /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
