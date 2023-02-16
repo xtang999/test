@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/xtang999/test/issues"
   },
-  "homepage": "https://github.com/xtang999/test#readme"
+  "homepage": "https://github.com/xtang999/test#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
 }
